@@ -1,0 +1,6 @@
+module Pods_asclivecommerce {
+  umbrella header "Pods-asclivecommerce-umbrella.h"
+
+  export *
+  module * { export * }
+}

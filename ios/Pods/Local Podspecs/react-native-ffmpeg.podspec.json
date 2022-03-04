@@ -1,0 +1,302 @@
+{
+  "name": "react-native-ffmpeg",
+  "version": "0.5.2",
+  "summary": "FFmpeg for React Native",
+  "description": "React Native FFmpeg based on mobile-ffmpeg",
+  "homepage": "https://github.com/tanersener/react-native-ffmpeg",
+  "authors": {
+    "Taner Sener": "tanersener@gmail.com"
+  },
+  "license": {
+    "type": "LGPL-3.0"
+  },
+  "platforms": {
+    "ios": null
+  },
+  "requires_arc": true,
+  "static_framework": true,
+  "source": {
+    "git": "https://github.com/tanersener/react-native-ffmpeg.git",
+    "tag": "v0.5.2"
+  },
+  "default_subspecs": "https",
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "min",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-min": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "min-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-min": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    },
+    {
+      "name": "min-gpl",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-min-gpl": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "min-gpl-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-min-gpl": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    },
+    {
+      "name": "https",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-https": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "https-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-https": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    },
+    {
+      "name": "https-gpl",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-https-gpl": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "https-gpl-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-https-gpl": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    },
+    {
+      "name": "audio",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-audio": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "audio-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-audio": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    },
+    {
+      "name": "video",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-video": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "video-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-video": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    },
+    {
+      "name": "full",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-full": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "full-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-full": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    },
+    {
+      "name": "full-gpl",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-full-gpl": [
+          "4.4"
+        ]
+      },
+      "platforms": {
+        "ios": "11.0"
+      }
+    },
+    {
+      "name": "full-gpl-lts",
+      "source_files": [
+        "ios/RNFFmpegModule.m",
+        "ios/RNFFmpegModule.h",
+        "ios/RNExecuteDelegate.h",
+        "ios/RNExecuteDelegate.m"
+      ],
+      "dependencies": {
+        "mobile-ffmpeg-full-gpl": [
+          "4.4.LTS"
+        ]
+      },
+      "platforms": {
+        "ios": "9.3"
+      }
+    }
+  ]
+}

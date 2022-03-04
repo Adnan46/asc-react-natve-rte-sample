@@ -1,0 +1,31 @@
+{
+  "name": "react-native-nodemediaclient",
+  "version": "0.2.17",
+  "summary": "This project is the react-native packaging of NodeMediaClient-Android and NodeMediaClient-iOS SDK.",
+  "description": "This project is the react-native packaging of NodeMediaClient-Android and NodeMediaClient-iOS SDK.",
+  "authors": "Chen Mingliang",
+  "homepage": "https://github.com/NodeMedia/react-native-nodemediaclient",
+  "source": {
+    "git": "https://github.com/NodeMedia/react-native-nodemediaclient.git",
+    "tag": "master"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "dependencies": {
+    "React": [
+
+    ],
+    "NodeMediaClient": [
+      "2.9.6"
+    ]
+  },
+  "default_subspecs": "RCTNodeMediaClient",
+  "subspecs": [
+    {
+      "name": "RCTNodeMediaClient",
+      "source_files": "ios/RCTNodeMediaClient/*.{h,m}"
+    }
+  ]
+}

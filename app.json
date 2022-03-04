@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "asc-rte-subscribe",
+    "slug": "asc-rte-subscribe",
+    "version": "1.0.0",
+    "assetBundlePatterns": ["**/*"]
+  },
+  "name": "asc-rte-subscribe",
+  "apiKey": "apikey",
+  "region": "us", 
+  "categoryId": "categoryId",
+  "communityId": "communityId"
+}
