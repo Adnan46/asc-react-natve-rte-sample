@@ -10,3 +10,8 @@ First, install all the dependency.
 ```
 npm install
 ```
+Run the app 
+```
+npm start
+```
+then Open Xcode -> file -> proejctfolder -> ios/xxxxx.xcworkspace
